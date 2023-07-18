@@ -13,7 +13,7 @@ namespace ImageBot
             {
                 return client;
             }
-            client = new TelegramBotClient("6017822607:AAETniUW4cUj8vnBI_UU343PtklHO-HV31A");
+            client = new TelegramBotClient("{bot-token}");
             return client;
         }
     }
